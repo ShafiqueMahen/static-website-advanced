@@ -1,0 +1,253 @@
+/* White page background */
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Scrolling */
+{
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+/* Underline style removed for links */
+a, a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Navigation bar style */
+.navbar {
+    background-color: rgba(150,150,150,1);
+    border-bottom: 1px solid rgba(0,0,0,1);
+}
+nav a {
+    font-family: "Verdana", "Calibri", sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    color: rgba(255,255,255);
+    padding: 20px 15px 20px 15px;
+}
+
+/* Image size */
+img {
+    max-width: 100%;
+}
+
+/* Sidebar styling */
+.sidebar {
+    height: auto;
+    padding: 15px;
+    background-color: rgba(255,255,255,1);
+}
+
+/* Row styling */
+.row {
+    height: auto;
+}
+
+/* Side title styling */
+.side-title {
+    text-align: center;
+}
+
+/* Side header styling */
+.side-header {
+    padding-bottom: 22px;
+}
+
+/* Side image styling */
+.side-img {
+    width: 205px; /* dimensions */
+    height: 205px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Blog image styling */
+.blog-img {
+    width: 800px; /* dimensions */
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Blog container styling */
+.blog-container {
+    background-color: rgb(240, 240, 240);
+    margin-top: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 15px;
+}
+
+/* Dictate video dimensions */
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+/* Author styling */
+.post-author {
+    font-style: italic;
+    text-decoration: underline;
+    margin-top: 5px;
+    float: inherit;
+}
+
+/* Header and subtitle styling */
+h2, .subtitle {
+    text-align: center;
+}
+
+/* Header and title styling */
+h3, .title {
+    text-align: left;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Scroll button styling */
+/* Normal styling */
+#btnScrollTop {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+/* Active styling */
+#btnScrollTop:active {
+    background: rgb(105, 105, 105);
+}
+
+/* Shop button styling */
+/* Normal styling */
+.btn-shop {
+    width: 100%;
+    height: 30px;
+    background: rgb(150, 150, 150);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+    border: solid rgb(150, 150, 150) 1px;
+    outline: none;
+    cursor: pointer;  
+}
+/* Hover styling */
+.btn-shop:hover {
+    background: rgb(200, 200, 200);
+    color: rgb(255, 255, 255);
+    border: solid rgb(105, 105, 105) 1px;
+}
+/* Active styling */
+.btn-shop:active {
+    background: rgb(150, 150, 150);
+    border: solid rgb(205, 205, 205) 3px;
+}
+
+/* Modal button styling */
+/* Normal styling */
+.btn-secondary {
+    padding: 0px;
+    border-radius: 0px;
+    width: 100%;
+    height: 30px;
+    background: rgb(150, 150, 150);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+    border: solid rgb(150, 150, 150) 1px;
+    outline: none;
+    cursor: pointer;  
+}
+/* Hover styling */
+.btn-secondary:hover {
+    background: rgb(200, 200, 200);
+}
+
+/* Main image styling */
+#mainImg {
+    max-width: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+}
+
+/* Main header styling */
+.main-header {
+    position: absolute;
+    left: 0px;
+    top: 0%;
+    width: 100%;
+    font-weight: 800;
+    font-size: 64px;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 3px 2px rgb(105, 105, 105);
+    margin: auto;
+}
+
+/* Report title styling */
+.report-title {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Report link styling */
+/* Normal style */
+.report-link {
+    color: rgb(0, 0, 255);
+}
+/* Hover style */
+.report-link:hover {
+    color: rgb(0, 0, 255);
+}
+
+/* Report image styling */
+.report-img {
+    width: 500px; /* dimensions */
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Report wireframe sub-title styling */
+.report-wireframe {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Report validation sub-title styling */
+.report-validate {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Footer styling */
+
+footer {
+    background: rgba(150, 150, 150, 1);
+    padding: 30px 30px 30px 0px;
+}
+
+/* styling copyright in footer */
+
+.copyright {
+    padding-top: 15px;
+}
+
+
+

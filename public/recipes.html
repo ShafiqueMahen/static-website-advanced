@@ -1,0 +1,170 @@
+<!DOCTYPE html> 
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <!-- Metadata -->
+        <meta name="description" content="A large coursework/project for the Web Development course at Goldsmiths, University of London.">
+        <meta name="author" content="Shafique Mahen, smahe003">
+        <meta name="keywords" content="too many cooks, food, recipes, blog">
+        <meta http-equiv="refresh" content="120">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <!-- Stylesheet(s) -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Icon(s) -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>Too Many Cooks! Recipes</title>
+    </head>
+
+    <body>
+        <!-- Top horizontal navigation bar (using bootstrap framework)-->
+        <div class="navbar static-top">
+            <div class="container-fluid">
+                <header>
+                    <h1>Too Many Cooks!</h1>
+                </header>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <nav>
+                            <a href="index.html">Home</a>  
+                            <a href="recipes.html">Recipes</a>
+                            <a href="products.html">Products</a>  
+                            <a href="living.html">Living</a>
+                            <a href="travel.html">Travel</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll-to-top button -->
+        <button id="btnScrollTop">
+            <i class="material-icons">keyboard_arrow_up</i>
+        </button>
+        <!-- Main page -->
+        <div class="container">
+            <!-- First row -->
+            <div class="row">
+                <!-- Main image & header -->
+                <div class="col-sm-12">
+                    <img src="assets/FoodBowls.jpg" id="mainImg" alt="variety of food" height="650">
+                    <p class="main-header">Whatcha cooking?</p>
+                </div>
+            </div>
+            <!-- Second row -->
+            <div class="row">
+                <!-- Recipe blog container -->
+                <div class="col-sm-9">
+                    <div class="blog-container">
+                        <h2 class="side-header">Latest Recipes</h2>
+                        <h3 class="title">My Butter Chicken Recipe!</h3>
+                        <iframe class="video" src="https://www.youtube.com/embed/D_fYk8mBaF4" title="butter chicken recipe video"></iframe>
+                        <br>
+                        <br>
+                        <p>Hello everyone! I thought I would share my recipe for Butter chicken with you all as it is one of my favourite dishes to make. Butter chicken is one of the most popular chicken recipes in India. Golden fried chicken pieces are cooked in a creamy tomato base. It is best served with roti, naan or pulao. </p>
+                        <p class="post-author">by Joseph C</p>
+                        <h3 class="title">My Take On Yakisoba!</h3>
+                        <iframe class="video" src="https://www.youtube.com/embed/3a-NreKMgLo" title="yakisoba recipe video"></iframe>
+                        <br>
+                        <br>
+                        <p>Yakisoba is a recipe that I have recently learned and am ready to share because I found it really delicious! Yakisoba is a classic Japanese stir fry noodle dish with pork and vegetables. It is seasoned with sweet and savory sauce, that is similar to Worcestershire sauce.</p>
+                        <p class="post-author">by Amanda B<p>
+                    </div>
+                </div>
+                <!-- Sponsored container -->
+                <div class="col-sm-3">
+                    <div class="blog-container">
+                        <h2 class="side-header">Sponsored Recipes</h2>
+                        <a href="https://food52.com/recipes/82335-bulgarian-moussaka-recipe">
+                            <div data-tilt data-tilt-perspective="500" data-tilt-scale="1.01">
+                                <img class="side-img" src="assets/Bulgarian%20Moussaka.jpg" alt="bulgarian moussaka">
+                            </div>
+                            <p class="side-title">Bulgarian Moussaka Recipe</p>
+                        </a>
+                        <!-- Sponsored modal -->
+                        <div class="col text-center">
+                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#firstSponsoredModal">Sponsored</button>
+                            <div class="modal fade" id="firstSponsoredModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4>What does "Sponsored" mean?</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>As we have been given funds by certain companies, in order to promote their content, we may receive a percentage of the sales for items purchased through links that have originated on our site.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <a href="https://food52.com/recipes/82288-best-korean-fried-chicken-recipe">
+                            <div data-tilt data-tilt-perspective="500" data-tilt-scale="1.01">
+                                <img class="side-img" src="assets/KoreanFriedChicken.webp" alt="maangchi's korean fried chicken">
+                            </div>
+                            <p class="side-title">Korean Fried Chicken Recipe</p>
+                        </a>
+                        <!-- Sponsored modal -->
+                        <div class="col text-center">
+                            <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#secondSponsoredModal">Sponsored</button>
+                            <div class="modal fade" id="secondSponsoredModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h4>What does "Sponsored" mean?</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>As we have been given funds by certain companies, in order to promote their content, we may receive a percentage of the sales for items purchased through links that have originated on our site.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    
+                </div>
+                <div class="col-sm-4">
+                    <p class="copyright">Copyright © 2020 Too Many Cooks!</p>
+                    <p>All rights reserved.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h1>Too Many Cooks!</h1>
+                </div>
+            </div>
+        </footer>
+        
+        
+        <!-- Javascript -->
+        <script>
+            // Scroll-to-top button
+            const btnScrollTop = document.getElementById("btnScrollTop")
+            btnScrollTop.addEventListener("click", function() {
+                window.scrollTo({
+                    left: 0,
+                    top: 0,
+                    behavior: "smooth" // smooth scroll effect //
+                });
+            });
+        </script>
+        
+        
+        <!-- js/bootstrap libraries -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    </body>
+</html>

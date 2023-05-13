@@ -1,0 +1,176 @@
+<!DOCTYPE html> 
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <!-- Metadata -->
+        <meta name="description" content="A large coursework/project for the Web Development course at Goldsmiths, University of London.">
+        <meta name="author" content="Shafique Mahen, smahe003">
+        <meta name="keywords" content="too many cooks, food, recipes, blog">
+        <meta http-equiv="refresh" content="120">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <!-- Stylesheet(s) -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- Icon(s) -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>Too Many Cooks! Living</title>
+    </head>
+
+    <body>
+        <!-- Top horizontal navigation bar (using bootstrap framework)-->
+        <div class="navbar static-top">
+            <div class="container-fluid">
+                <header>
+                    <h1>Too Many Cooks!</h1>
+                </header>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <nav>
+                            <a href="index.html">Home</a>  
+                            <a href="recipes.html">Recipes</a>
+                            <a href="products.html">Products</a>  
+                            <a href="living.html">Living</a>
+                            <a href="travel.html">Travel</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scroll-to-top button -->
+        <button id="btnScrollTop">
+            <i class="material-icons">keyboard_arrow_up</i>
+        </button>
+        <!-- Main page -->
+        <div class="container">
+            <!-- First row -->
+            <div class="row">
+                <!-- Main image & header -->
+                <div class="col-sm-12">
+                    <img src="assets/LivingRoom.jpg" id="mainImg" alt="wine glasses" height="650">
+                    <p class="main-header">Living lavish.</p>
+                </div>
+            </div>
+            <!-- Second row -->
+            <div class="row">
+                <!-- Living blog container -->
+                <div class="col-sm-9">
+                    <div class="blog-container">
+                        <h2 class="side-header">Latest Living Posts</h2>
+                        <h3 class="title">A Kitchen Tweak That Can Save You Hundreds</h3>
+                        <a href="https://food52.com/blog/24715-how-to-stop-using-paper-towels">
+                            <div data-tilt data-tilt-perspective="2000" data-tilt-scale="1.01">
+                                <img class="blog-img" src="assets/KitchenTowel.jpg" alt="cleaning a table with a kitchen towel">
+                            </div>
+                            <br>
+                            <p>Someone who goes through a ton of paper towels? This article may be for you. I used to go through atleast one roll of paper towels every week, but not anymore...</p>
+                            <p class="post-author">by Emma L</p>
+                        </a>
+                        <h3 class="title">The Best Way to Wash Wine Glasses</h3>
+                        <a href="https://food52.com/blog/23585-best-way-to-clean-wine-glasses-according-to-wine-pros">
+                            <div data-tilt data-tilt-perspective="2000" data-tilt-scale="1.01">
+                                <img class="blog-img" src="assets/WineGlasses.jpg" alt="wine glasses">
+                            </div>
+                            <br>
+                            <p>Planning for a big holiday party? Well, "cleaning wine glasses" should definitely be on that list. If you need help to get your wine glasses polished, this article is for you. Plus, I have a secret weapon to really make those glasses shine.</p>
+                            <p class="post-author">by Camryn R</p>
+                        </a>
+                    </div>
+                </div>
+                    <!-- Sponsored container -->
+                    <div class="col-sm-3">
+                        <div class="blog-container">
+                            <h2 class="side-header">Sponsored Living Posts</h2>
+                            <a href="https://food52.com/blog/24873-how-to-make-a-guest-room-the-best-room">
+                                <div data-tilt data-tilt-perspective="500" data-tilt-scale="1.01">
+                                    <img class="side-img" src="assets/HotelRoom.jpg" alt="hotel room">
+                                </div>
+                                <p class="side-title">From Guest Room to Hotel Room</p>
+                            </a>
+                            <!-- Sponsored modal -->
+                            <div class="col text-center">
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#firstSponsoredModal">Sponsored</button>
+                                <div class="modal fade" id="firstSponsoredModal">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4>What does "Sponsored" mean?</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>As we have been given funds by certain companies, in order to promote their content, we may receive a percentage of the sales for items purchased through links that have originated on our site.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <a href="https://food52.com/blog/24869-how-to-dry-clean-at-home">
+                                <div data-tilt data-tilt-perspective="500" data-tilt-scale="1.01">
+                                    <img class="side-img" src="assets/DryCleaning.jpg" alt="dry cleaning">
+                                </div>
+                                <p class="side-title">I Gave Up Dry Cleaning for a Year - Here's What I Learned</p>
+                            </a>
+                            <!-- Sponsored modal -->
+                            <div class="col text-center">
+                                <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#secondSponsoredModal">Sponsored</button>
+                                <div class="modal fade" id="secondSponsoredModal">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h4>What does "Sponsored" mean?</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>As we have been given funds by certain companies, in order to promote their content, we may receive a percentage of the sales for items purchased through links that have originated on our site.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- Footer -->
+        <footer>
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    
+                </div>
+                <div class="col-sm-4">
+                    <p class="copyright">Copyright © 2020 Too Many Cooks!</p>
+                    <p>All rights reserved.</p>
+                </div>
+                <div class="col-sm-4">
+                    <h1>Too Many Cooks!</h1>
+                </div>
+            </div>
+        </footer>
+        
+        
+        <!-- Javascript -->
+        <script>
+            // Scroll-to-top button
+            const btnScrollTop = document.getElementById("btnScrollTop")
+            btnScrollTop.addEventListener("click", function() {
+                window.scrollTo({
+                    left: 0,
+                    top: 0,
+                    behavior: "smooth" // smooth scroll effect //
+                });
+            });
+        </script>
+        
+        
+        <!-- js/bootstrap libraries -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    </body>
+</html>
