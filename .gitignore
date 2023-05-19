@@ -1,2 +1,3 @@
 **.terraform/**
-tfkey
+tfkey_web
+tfkey_jenkins

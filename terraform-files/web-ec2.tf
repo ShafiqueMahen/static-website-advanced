@@ -43,9 +43,9 @@ resource "tls_private_key" "rsa" {
 }
 
 // Store Private Key in a file for user to use to SSH themselves
-resource "local_file" "TF-key" {
+resource "local_file" "TF_private_key" {
     content  = tls_private_key.rsa.private_key_pem
-    filename = "tfkey"
+    filename = "tfkey_web"
     file_permission = "400"
 }
 
