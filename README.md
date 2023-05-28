@@ -2,6 +2,8 @@
 
 This repository demonstrates how to host a static website on an Amazon EC2 instance using Nginx as the web server. Additionally, it incorporates Jenkins and a Pipeline job to automatically update the website whenever a Git commit occurs using webhooks.
 
+This project aimed to build on my previous knowledge gained from creating a simple Jenkins pipeline that stored the website on a S3 bucket. This can be seen in this repo: https://github.com/ShafiqueMahen/static-website
+
 ## Overview
 The project breaks down into the following steps:
 
